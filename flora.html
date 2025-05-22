@@ -314,9 +314,9 @@
     }
 
     Promise.all([
-      loadSpeciesGeoJSON('dados/Arbutus_unedo.json', 'red', 'Arbutus unedo'),
-      loadSpeciesGeoJSON('dados/Arum_italicum_italicum.json', 'yellow', 'Arum italicum italicum'),
-      loadSpeciesGeoJSON('dados/Quercus_robur.json', 'brown', 'Quercus robur')
+      loadSpeciesGeoJSON('Arbutus_unedo.json', 'red', 'Arbutus unedo'),
+      loadSpeciesGeoJSON('Arum_italicum_italicum.json', 'yellow', 'Arum italicum italicum'),
+      loadSpeciesGeoJSON('Quercus_robur.json', 'brown', 'Quercus robur')
     ]).then(boundsArray => {
       const allBounds = boundsArray.reduce((acc, b) => acc.extend(b), boundsArray[0]);
       map.fitBounds(allBounds.pad(0.1));
