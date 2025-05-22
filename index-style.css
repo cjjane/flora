@@ -113,3 +113,17 @@ padding-bottom: 1%;
 .carousel:hover .carousel-control-next {
   opacity: 1; 
 }
+
+figure {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+figcaption {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #555;
+}
