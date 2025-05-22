@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: "Roboto Flex", sans-serif;
+  background-color: #f3eee6;
+  color: #364a20;
+  text-align: left;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header nav.navbar {
+  background-color: #f3eee6;
+  box-shadow: 0 2px 5px rgba(54, 74, 32, 0.15);
+}
+
+.navbar-brand span {
+  color: #556b2f;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  border-bottom: 2px dotted #b1bfc8;
+  padding-bottom: 2px;
+  width: 100%;
+}
+
+main.container {
+  flex: 1;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 15px;
+  position: relative;
+}
+
+h1,
+h2,
+h4 {
+  font-weight: 700;
+  color: #556b2f;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8rem;
+  border-bottom: 2px dotted #b1bfc8;
+  padding-bottom: 4px;
+}
+
+h4 {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+p,
+ul {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+strong {
+  color: #556b2f;
+}
+
+em {
+  font-style: italic;
+  color: #556b2f;
+}
+
+form {
+  max-width: 400px;
+  margin-top: 2rem;
+}
+
+form label {
+  font-weight: 600;
+  color: #556b2f;
+}
+
+form input[type="email"],
+form input[type="password"] {
+  border: 1px solid #b1bfc8;
+  border-radius: 4px;
+}
+
+form input::placeholder {
+  color: #8d9aaa;
+}
+
+.form-check-label {
+  color: #556b2f;
+}
+
+button.btn-success {
+  background-color: #556b2f;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.btn-success:hover {
+  background-color: #364a20;
+}
+
+hr {
+  border-color: #b1bfc8;
+  margin: 3rem 0;
+}
+
+footer {
+  background-color: #f3eee6;
+  color: #364a20;
+  font-weight: 500;
+  font-size: 1em;
+  padding: 1rem 0;
+  text-indent: 25px;
+  text-align: left;
+  border-top: 1px solid #b1bfc8;
+  width: 80%;
+}
+form {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 0 15px;
+  text-align: left;
+}
+
+#receba {
+  margin: 2rem auto;
+  padding: 0 15px;
+  text-align: center;
+}
+#inscreva {
+  margin: 2rem auto;
+  padding: 0 15px;
+  text-align: center;
+}
+#logo {
+  width: 200px;
+  height: 100px;
+  padding-left: 90px;
+  object-fit: fill;
+}
+
+.navbar .container-fluid {
+  position: relative;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
