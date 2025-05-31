@@ -261,7 +261,7 @@ span{
     font-size: 1.2em;
 }
 #logo {
-    width: 20px;
+    width: 100px;
     height: auto;
     object-fit: contain;
 }
