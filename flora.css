@@ -260,12 +260,12 @@ span{
     margin: 0 100px;
     font-size: 1.2em;
 }
-#logo{
-    width:10%;
-    height: 20%;
-    padding-left: 0px;
-    object-fit: cover;
+#logo {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
 }
+
 .navbar {
   background:#f3eee6;
   background-size: cover;
