@@ -6,8 +6,8 @@ body {
 }
 
 #map {
-  width: 50%;
-  height: 500px;
+  width: 10%;
+  height: 200px;
   position: relative;
   float: left;
 }
