@@ -1,5 +1,5 @@
 .navbar * {
-  --bs-navbar-color: #556B2F;
+  --bs-navbar-color: #556B2F!important;
   color: var(--bs-navbar-color);
 }
 span{
